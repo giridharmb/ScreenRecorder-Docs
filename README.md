@@ -14,7 +14,9 @@ Designed for **macOS 15 or later**, on Apple silicon and Intel Macs. Final compa
 - Add a microphone, record without sound, or combine application audio and microphone input.
 - Set a countdown, video resolution, frame rate, cursor options, and an automatic stop time.
 - Pause, continue, and stop from the menu bar.
-- Choose a destination folder and filename; save as MP4 or MOV, or optionally export WebM with FFmpeg.
+- Keep the default filename and folder, or add prefixes, suffixes, app names, and date-based subfolders.
+- Save as MP4 (default) or MOV, or optionally export WebM or MKV with FFmpeg.
+- Browse recordings in a separate tab with size totals, creation/modification times, search, and sorting.
 
 ## Take a look
 
@@ -32,6 +34,14 @@ These are **mock screenshots with fictional sample content**. No personal deskto
 
 ![Mock menu bar controls for continuing a paused recording and stopping and saving](images/menu-bar-mock.png)
 
+**Naming and folder rules**
+
+![Mock optional naming settings with app names and date-based folders](images/naming-mock.png)
+
+**Your recordings and storage**
+
+![Mock recordings tab with fictional file details and sorting controls](images/recordings-mock.png)
+
 ## User guide
 
 | Guide | What it covers |
@@ -40,6 +50,7 @@ These are **mock screenshots with fictional sample content**. No personal deskto
 | [Choose what to record](guides/capture-sources.md) | Displays, windows, apps, areas, browser tabs, and multiple windows |
 | [Set up audio](guides/audio.md) | Application sound, microphones, quiet listening, and silent recording |
 | [Recording options and files](guides/settings-and-files.md) | Quality, countdown, pause, shortcuts, formats, and saving |
+| [Naming, folders, and recordings](guides/organizing-recordings.md) | Optional naming rules, app/date folders, file details, sorting, and storage totals |
 | [Troubleshooting and FAQ](guides/troubleshooting.md) | Missing windows, black previews, audio, saving, and permissions |
 | [Privacy](PRIVACY.md) | Permissions, local files, preview images, and public support |
 | [Release status](RELEASES.md) | Public availability and what to check before downloading |

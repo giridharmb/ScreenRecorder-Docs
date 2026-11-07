@@ -47,11 +47,14 @@ If another app owns the global shortcut, Screen Recorder reports it as unavailab
 
 | Format | Use it for | Extra software |
 | --- | --- | --- |
-| MP4 | General playback and sharing; H.264 is a useful starting point | None |
+| MP4 (default) | General playback and sharing; H.264 is a useful starting point | None |
 | MOV | A QuickTime movie or a workflow that expects MOV | None |
 | WebM | A workflow that needs WebM video | A separate FFmpeg installation with VP9 and Opus encoding |
+| MKV | A Matroska container for compatible players or editing workflows | A separate FFmpeg installation |
 
-WebM records a MOV first and converts it after stopping. Conversion takes extra time and disk space. FFmpeg is optional and is not included with the app. If needed, obtain it from a trusted source listed at [FFmpeg downloads](https://ffmpeg.org/download.html), then use **Settings → Storage & Formats → Locate FFmpeg…** to select its executable. If you do not need WebM, use MP4 or MOV.
+WebM records a MOV first and converts it after stopping. Conversion takes extra time and disk space. FFmpeg is optional and is not included with the app. If needed, obtain it from a trusted source listed at [FFmpeg downloads](https://ffmpeg.org/download.html), then use **Settings → Storage & Formats → Locate FFmpeg…** to select its executable. MKV also records a MOV first, then FFmpeg repackages its captured video and audio without re-encoding. MKV playback needs a compatible player; QuickTime may not open it. If you do not need these exports, use MP4 or MOV.
+
+Choose your preferred format in the recording options or **Settings → Storage & Formats**. The app remembers it for future recordings. Changing the filename extension does not choose a different format.
 
 If joining or conversion fails, recoverable recorded files are kept and the app displays their locations. Do not delete those files until you have checked and recovered the recording.
 
@@ -61,7 +64,17 @@ Choose a destination and filename before starting. The default is **Movies → S
 
 Keep enough free space for the whole session, including extra space for pause sections or WebM conversion. A successful free-space check at the start cannot guarantee room for an unlimited recording. Keep external drives connected and avoid moving the destination folder while recording.
 
-The menu bar offers **Open Save Folder** and, after a successful save in that app session, **Reveal Last Recording**. You can move or delete completed recordings with Finder after saving finishes.
+The existing filename and destination defaults stay the same. For optional prefixes, suffixes, naming templates, date subfolders, or app-based grouping, see [Naming, folders, and your recordings](organizing-recordings.md). Existing recordings are not renamed or moved by these rules.
+
+## More menu bar actions
+
+- During recording, see the destination filename, elapsed active time, and encoded size. Open the actual recording folder or copy the intended final path. The final file becomes available after saving finishes.
+- Use **Recordings & Storage** to open the separate recordings tab, including while a session is running.
+- After saving in the current app session, **Open Last Recording**, **Reveal Last Recording**, **Copy Last Recording**, or **Copy Last Recording Path** are available. Copy File puts the video on the clipboard for pasting into Finder or another compatible app; it does not upload it.
+- While idle, **Next Recording** lets you change the preferred format, system/app audio, microphone, and countdown. Microphone permission is still requested only if needed when recording starts.
+- **Open Save Folder** opens your base destination; **Open Recording Folder** opens the current nested destination during a session.
+
+Completed files can also be opened, revealed, or copied from the [Recordings tab](organizing-recordings.md#recordings-tab-and-storage-statistics). Move or delete completed recordings with Finder after saving finishes.
 
 ## Updates and removal
 
