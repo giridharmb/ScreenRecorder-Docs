@@ -49,20 +49,17 @@ If another app owns the global shortcut, Screen Recorder reports it as unavailab
 | --- | --- | --- |
 | MP4 (default) | General playback and sharing; H.264 is a useful starting point | None |
 | MOV | A QuickTime movie or a workflow that expects MOV | None |
-| WebM | A workflow that needs WebM video | A separate FFmpeg installation with VP9 and Opus encoding |
-| MKV | A Matroska container for compatible players or editing workflows | A separate FFmpeg installation |
-
-WebM records a MOV first and converts it after stopping. Conversion takes extra time and disk space. FFmpeg is optional and is not included with the app. If needed, obtain it from a trusted source listed at [FFmpeg downloads](https://ffmpeg.org/download.html), then use **Settings → Storage & Formats → Locate FFmpeg…** to select its executable. MKV also records a MOV first, then FFmpeg repackages its captured video and audio without re-encoding. MKV playback needs a compatible player; QuickTime may not open it. If you do not need these exports, use MP4 or MOV.
+MP4 and MOV are recorded using built-in macOS features. No FFmpeg installation or extra conversion software is required. WebM and MKV export are disabled. An older saved WebM/MKV preference automatically switches to MP4, keeping your other preferences.
 
 Choose your preferred format in the recording options or **Settings → Storage & Formats**. The app remembers it for future recordings. Changing the filename extension does not choose a different format.
 
-If joining or conversion fails, recoverable recorded files are kept and the app displays their locations. Do not delete those files until you have checked and recovered the recording.
+If joining or saving fails, recoverable recorded files are kept and the app displays their locations. Do not delete those files until you have checked and recovered the recording.
 
 ## Folders, filenames, and free space
 
 Choose a destination and filename before starting. The default is **Movies → Screen Recorder** in your home folder. The extension follows the selected format; you do not need to type it. If a filename already exists, the app uses a numbered name instead of replacing it.
 
-Keep enough free space for the whole session, including extra space for pause sections or WebM conversion. A successful free-space check at the start cannot guarantee room for an unlimited recording. Keep external drives connected and avoid moving the destination folder while recording.
+Keep enough free space for the whole session, including extra space for joining paused sections. A successful free-space check at the start cannot guarantee room for an unlimited recording. Keep external drives connected and avoid moving the destination folder while recording.
 
 The existing filename and destination defaults stay the same. For optional prefixes, suffixes, naming templates, date subfolders, or app-based grouping, see [Naming, folders, and your recordings](organizing-recordings.md). Existing recordings are not renamed or moved by these rules.
 

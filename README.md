@@ -15,7 +15,7 @@ Designed for **macOS 15 or later**, on Apple silicon and Intel Macs. Final compa
 - Set a countdown, video resolution, frame rate, cursor options, and an automatic stop time.
 - Pause, continue, and stop from the menu bar.
 - Keep the default filename and folder, or add prefixes, suffixes, app names, and date-based subfolders.
-- Save as MP4 (default) or MOV, or optionally export WebM or MKV with FFmpeg.
+- Save as MP4 (default) or MOV using built-in macOS recording, with no extra software.
 - Browse recordings in a separate tab with size totals, creation/modification times, search, and sorting.
 
 ## Take a look

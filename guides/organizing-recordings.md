@@ -57,7 +57,7 @@ Generated folders stay under your chosen base folder. Rules cannot contain paren
 
 ## Recordings tab and storage statistics
 
-Open the **Recordings** tab, or choose **Recordings & Storage** in the menu bar. It lists MP4, MOV, WebM, and MKV files in your current base folder and its subfolders, including compatible files already there. It reads local file details in the background and does not upload or automatically play videos.
+Open the **Recordings** tab, or choose **Recordings & Storage** in the menu bar. It lists MP4 and MOV recordings in your current base folder and its subfolders. Existing WebM and MKV files remain visible too; creating new WebM/MKV exports is disabled. It reads local file details in the background and does not upload or automatically play videos.
 
 ![Mock recordings tab showing fictional file sizes, folders, and dates](../images/recordings-mock.png)
 

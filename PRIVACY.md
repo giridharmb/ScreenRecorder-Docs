@@ -6,7 +6,7 @@ This page describes the current Screen Recorder preview. It will be reviewed bef
 
 ## Your recordings stay where you save them
 
-The current app records and processes video and audio locally on your Mac. It has no recording upload service, account sign-in, advertising, or built-in analytics. Recordings are saved in the folder you choose. WebM or MKV export, when enabled, runs locally using your selected FFmpeg executable.
+The current app records and processes video and audio locally on your Mac. It has no recording upload service, account sign-in, advertising, or built-in analytics. Recordings are saved in the folder you choose. MP4 and MOV saving uses built-in macOS features. The app does not run an external converter.
 
 If you select a folder managed by iCloud Drive, Dropbox, a network share, or another service, that service may sync or transfer the saved files according to its own settings. The app does not control those services. Opening an external download or support link uses your browser.
 
@@ -25,7 +25,7 @@ The app reads available application names and window titles to populate the choo
 
 The Recordings tab reads filenames, relative folders, sizes, and filesystem creation/modification dates in your chosen save folder and its subfolders. This information stays on your Mac. The scan skips symbolic links, hidden files, and application packages; it does not automatically open or upload the videos. Optional naming rules can include the selected application’s name in saved filenames or folders.
 
-Preferences such as the save folder and recording options are stored on your Mac. Recordings may use temporary sections in the destination folder while capture, joining, or conversion is in progress. These are removed after a successful final save; recoverable files can remain after an error. Check the app’s message before removing them.
+Preferences such as the save folder and recording options are stored on your Mac. Recordings may use temporary sections in the destination folder while capture or joining is in progress. These are removed after a successful final save; recoverable files can remain after an error. Check the app’s message before removing them.
 
 Removing the app does not remove recordings you saved in a separate folder. Manage those files in Finder. macOS can separately create diagnostic or crash reports according to your system settings; they are not the app’s built-in analytics.
 

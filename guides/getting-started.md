@@ -6,7 +6,7 @@
 
 Screen Recorder is preparing for a public release. **There is no public app download yet.** This guide explains the planned installation flow and how to use a preview build if one has been provided to you. Check [release status](../RELEASES.md) for announcements.
 
-The app is designed for macOS 15 or later on Apple silicon and Intel Macs. You need enough free disk space for your recording. MP4 and MOV do not need extra audio drivers or conversion software. WebM is optional and requires a separate FFmpeg installation.
+The app is designed for macOS 15 or later on Apple silicon and Intel Macs. You need enough free disk space for your recording. MP4 and MOV use built-in macOS recording and do not need extra audio drivers or conversion software.
 
 ## Install a provided build
 

@@ -48,11 +48,11 @@ It may be hidden automatically when recording starts, or you may have closed it.
 
 Another app may already use **⇧⌘2**. Check the availability message in Screen Recorder and use **Stop & Save** in the menu bar. The start and pause shortcuts work only while Screen Recorder is active.
 
-## Saving is taking a long time or WebM export failed
+## Saving is taking a long time or failed
 
-Wait for joining or conversion to finish. WebM conversion can take longer than saving MP4 or MOV and requires extra disk space. Confirm FFmpeg is installed and selected if you use WebM; MP4 and MOV do not need it.
+Wait for joining and saving to finish, especially after a long recording with paused sections. Keep enough free space for both the recorded sections and the final video. MP4 and MOV need no extra conversion software.
 
-If the app reports a save or conversion failure, keep the recoverable files it lists. Confirm the destination drive is connected, writable, and has enough space. Avoid renaming or deleting in-progress recordings. Use [support](../SUPPORT.md) if you cannot recover the result.
+If the app reports a save failure, keep the recoverable files it lists. Confirm the destination drive is connected, writable, and has enough space. Avoid renaming or deleting in-progress recordings. Use [support](../SUPPORT.md) if you cannot recover the result.
 
 ## The app crashes or macOS reports an installation problem
 
