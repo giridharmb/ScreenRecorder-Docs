@@ -21,7 +21,7 @@ Display and Area recordings can include other apps, notifications, and anything 
 
 ## Previews, preferences, and temporary files
 
-The app reads available application names and window titles to populate the chooser. Window-gallery snapshots are held in memory while browsing and are not saved as screenshot files by the app. Main-window source snapshots are also previews, not uploaded images.
+The app reads available application names and window titles to populate the chooser. Window-gallery snapshots use a bounded memory cache while the app runs, so scrolling and revisiting the chooser can reuse them. They are not saved as screenshot files or uploaded by the app. Off-screen windows are not automatically brought forward to obtain a preview. Main-window source snapshots are also previews, not uploaded images.
 
 Preferences such as the save folder and recording options are stored on your Mac. Recordings may use temporary sections in the destination folder while capture, joining, or conversion is in progress. These are removed after a successful final save; recoverable files can remain after an error. Check the app’s message before removing them.
 

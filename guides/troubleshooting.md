@@ -12,9 +12,11 @@ Check **System Settings → Privacy & Security → Screen & System Audio Recordi
 
 ## A window is missing or its preview is blank
 
-Open or restore the window, clear the search and application filter, then choose **Refresh windows & previews**. Minimized or hidden windows may not update. The chooser lists windows, not every browser tab. Move a tab to its own window if you need a separate source.
+Open or restore the window, clear the search and application filter, then choose **Refresh windows & previews**. The default list shows on-screen windows. Enable **Include off-screen / minimized windows** to see the others. Minimized or hidden windows may show a restore-window placeholder or a labeled last cached preview instead of a current image. The chooser lists windows, not every browser tab. Move a tab to its own window if you need a separate source.
 
-A protected video or other restricted content can appear black even when the rest of its window is visible. The app does not remove those restrictions. An unavailable preview is not proof that capture will succeed; make a short test.
+The gallery retries an empty or all-black image once, then shows **No preview image** or keeps a labeled last good preview. After restoring or changing the source window, refresh to try again. Previews are still images and are cached while you scroll.
+
+A protected video or other restricted content can remain unavailable even when the rest of its window is visible. The app does not remove those restrictions. An unavailable preview is not proof that capture will succeed; make a short test.
 
 ## I see several windows with the same app name or title
 

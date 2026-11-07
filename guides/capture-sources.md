@@ -12,14 +12,14 @@
 ## Choose one window from large previews
 
 1. Click **Window**, or open the **Choose Window** tab.
-2. Use the **Application** filter or search by window title, app name, or window number.
+2. Use the **Application** filter or search by window title, app name, or window number. Enable **Include off-screen / minimized windows** if you need a window that is not currently on screen.
 3. Select the preview of the exact window you want. Check its title, window number, and selection marker.
 4. Click **Use selected window** to return to recording settings.
 5. Confirm the source and start recording.
 
 The gallery groups windows by their application. Each window has a separate card, including windows with the same title. Separate running instances with the same app name have different instance labels and groups. The instance number is just an identifier to help tell them apart.
 
-Your search, app filter, and selected window stay selected when you switch between the chooser and recording tabs. **Refresh windows & previews** updates titles and still previews. The list also refreshes when you return to the app or applications open or quit. If a chosen window closes, refresh and select another explicitly; the app does not silently record a different window.
+Your search, app filter, and selected window stay selected when you switch between the chooser and recording tabs. **Refresh windows & previews** updates titles and still previews. Previews are cached so scrolling away and back does not start them over; an existing image can remain visible while it updates. A **Last preview** badge means the image could not be updated yet. The list also refreshes when you return to the app or applications open or quit. If a chosen window closes, refresh and select another explicitly; the app does not silently record a different window.
 
 ![Fictional window gallery with separate Chrome window cards and instance groups](../images/window-picker-mock.png)
 
@@ -53,6 +53,8 @@ The rectangle stays in a fixed location on that display. It does not follow a wi
 
 Display mode records one selected display. Window mode can keep the same selected window when you move it between displays. Application and Area modes remain tied to their chosen display.
 
-An **Off screen / minimized** label or **Preview unavailable** message can mean the window needs restoring. Open or restore it and refresh. A missing preview is not a guarantee that recording will work; make a short test. DRM or other protected content may stay black.
+The default gallery shows on-screen windows, including covered ones. Enable **Include off-screen / minimized windows** to include the others. An off-screen window may show **Restore window for preview**, or its last cached image with a **Last preview** badge. Restore it and click **Refresh windows & previews** to update it.
+
+If a window returns no picture or an all-black image, the gallery retries once, then shows **No preview image** or keeps a labeled last good preview. That message can mean the window is hidden, not providing frames, or showing protected content. The app does not switch to capturing your desktop as a fallback. A missing preview is not a guarantee that recording will work; make a short test. DRM or other protected content may remain unavailable.
 
 Source selection is locked during recording, pause, and saving. Finish the recording before choosing another source.
