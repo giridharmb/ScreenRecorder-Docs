@@ -19,7 +19,7 @@ Resolution choices also include 4K. The source’s aspect ratio is preserved, an
 
 ## Appearance and smaller windows
 
-Choose **Settings → General → Appearance → System, Light, or Dark**. System follows your Mac’s appearance. The app uses larger text and adapts to smaller windows: capture choices move above the preview and **Video, audio & timer options** expands below the save settings. Record, pause, and stop controls stay at the bottom while setup options scroll.
+Choose **Settings → General → Appearance → System, Light, or Dark**. System follows your Mac’s appearance. The app uses larger text and adapts to smaller windows: capture choices move above the preview and **Video, audio & timer options** expands below the save settings. Record, pause, and stop controls stay at the bottom while setup options scroll. A status line shows whether system/app audio and the microphone are on, including when compact options are collapsed; the menu bar menu also shows these choices.
 
 ## Before and during recording
 
@@ -75,11 +75,11 @@ The existing filename and destination defaults stay the same. For optional prefi
 - While idle, **Next Recording** lets you change the preferred format, system/app audio, microphone, and countdown. Microphone permission is still requested only if needed when recording starts.
 - **Open Save Folder** opens your base destination; **Open Recording Folder** opens the current nested destination during a session.
 
-Completed files can also be opened, revealed, or copied from the [Recordings tab](organizing-recordings.md#recordings-tab-and-storage-statistics). Move or delete completed recordings with Finder after saving finishes.
+Completed files can also be opened, revealed, or copied from the [Recordings tab](organizing-recordings.md#recordings-tab-and-storage-statistics). Use bulk selection and confirmed **Move to Trash…** with session Undo in the Recordings tab, or manage completed videos with Finder after saving finishes. See [selection and cleanup](organizing-recordings.md#select-several-videos-and-clean-up).
 
 ## Help and recovery
 
-**User Guide**, **Privacy Policy**, and **Support** are available in the Help menu and Settings. General settings show screen/audio and microphone permission states. Recording errors provide recovery actions such as **Choose Save Folder…**, **Refresh Sources**, and **Open Recovery Folder** when recoverable sections exist. Correct invalid names in the filename field or Naming & Folders settings before trying Record again.
+**User Guide**, **Privacy Policy**, and **Support** are available in the Help menu and Settings. General settings show screen/audio and microphone permission states. Recording errors appear above every main-window tab, so a failure remains visible when you are browsing recordings or choosing windows. They provide recovery actions such as **Choose Save Folder…**, **Refresh Sources**, and **Open Recovery Folder** when recoverable sections exist. Correct invalid names in the filename field or Naming & Folders settings before trying Record again.
 
 ## Updates and removal
 

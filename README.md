@@ -17,7 +17,9 @@ Designed for **macOS 15 or later**, on Apple silicon and Intel Macs. Final compa
 - Choose system, light, or dark appearance and use a layout that adapts to smaller windows.
 - Keep the default filename and folder, or add prefixes, suffixes, app names, and date-based subfolders.
 - Save as MP4 (default) or MOV using built-in macOS recording, with no extra software.
-- Browse recordings in a separate tab with size totals, creation/modification times, search, and sorting.
+- Browse recordings with size totals, dates, search, and sortable columns.
+- Select multiple videos, preview with Quick Look, and move completed videos to Trash with confirmation and Undo.
+- Set a recording area by dragging, typing its position/size, or using the keyboard.
 
 ## Take a look
 

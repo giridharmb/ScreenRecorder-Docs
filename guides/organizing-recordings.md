@@ -6,7 +6,7 @@
 
 By default, Screen Recorder keeps the existing **Recording YYYY-MM-DD HH-mm-ss** naming style and saves directly in **Movies → Screen Recorder**, or the folder you have already chosen. MP4 remains the default for a new installation. Your saved preferences are retained when updating.
 
-Open **Settings → Naming & Folders**, or **Naming & folder rules…** below the filename in the Recording tab. All rules are optional and apply only to future recordings. They never rename or reorganize existing files. Choose **Reset naming & folder rules** to return to using the filename field and saving directly in your selected base folder.
+Open **Settings → Naming & Folders**, or **Naming & folder rules…** below the filename in the Recording tab. All rules are optional and apply only to future recordings. They never rename or reorganize existing files. Choose **Reset naming & folder rules…** and confirm to return to using the filename field and saving directly in your selected base folder. **Edit → Undo** restores the complete previous rule set during the current app session.
 
 ![Naming settings with a fictional app and month folder example](../images/naming-settings.jpg)
 
@@ -65,10 +65,22 @@ Open the **Recordings** tab, or choose **Recordings & Storage** in the menu bar.
 - **Video files:** combined logical size of the listed videos.
 - **Folder total:** combined logical size of visible regular files, including non-video files and temporary recordings. This is not the exact disk allocation or the size of other save folders or drives.
 - **Created** and **Modified:** filesystem timestamps. Selecting a file shows the full date/time, including seconds, and exact byte count. These dates may change when files are copied or edited; they are not a guaranteed original recording start or end time.
-- **Sort by:** Name, Folder, Size, Created, or Modified, with Ascending/Descending order.
-- **Search:** filter by filename or subfolder. The matching count shows how many of the scanned videos are visible. Summary totals still cover the whole scanned folder.
-- **Open Video**, **Reveal in Finder**, **Copy File**, and **Copy Path** act on the selected file. Double-clicking a row opens it in its default player; right-clicking offers the same actions.
+- **Sort by:** Name, Folder, Size, Created, or Modified. Click column headings to sort, click again to reverse, or use the picker and direction arrow. The controls stay synchronized.
+- **Search:** filter by filename or subfolder. Cmd-F focuses search; the clear button or Escape clears it. The matching count shows how many scanned videos are visible. Summary totals cover the whole scanned folder. Filtering clears selections that are no longer visible, so actions cannot target a hidden row.
+- **Open Video** opens one selected video in its default player. Double-clicking a single row does the same.
+- **Quick Look** or **Space** previews selected videos without opening a separate player. Press Escape to close the preview.
+- **Reveal** opens selected files in Finder. **Copy Files** copies the selected videos for pasting into Finder or a compatible app. Right-click also offers **Copy Path / Copy Paths**.
 
 The scan skips hidden files, application packages, symbolic links, and unfinished recording sections in the video list. Temporary sections still count toward Folder total. Unreadable items produce a warning and totals may be incomplete. A missing save folder shows an empty list until it is created.
 
 The list refreshes when opened, when your save folder changes, and after a recording is saved. Use **Refresh** for files changed in Finder or for an updated size during recording. The Recordings tab remains available while recording; use the menu bar to pause or stop.
+
+## Select several videos and clean up
+
+Use **Cmd-click** for separate files, **Shift-click** or **Shift-arrow** for a range, and **Cmd-A** to select all currently visible rows. The selection summary shows the number of files and their combined size.
+
+With the table focused, press **Delete** or **Cmd-Delete**, choose **Move to Trash…**, or right-click and choose it. A confirmation shows the count and size before any file is moved. Typing in search uses normal text-editing behavior; Delete there edits text. The app uses macOS Trash and does not permanently erase videos.
+
+Use **Edit → Undo**, **Cmd-Z**, or **Undo Move to Trash** to restore the batch during this app session. After quitting, use Trash in Finder to recover files. Undo restores the original destination, even if you have since chosen another save folder. It never replaces a file that now uses the original name. If restoring fails, the video stays in Trash; resolve the conflict or reconnect the drive, then retry Undo or recover it with Finder.
+
+Trash actions are disabled during recording or saving. Active files, temporary/recovery sections, symbolic links, and files outside the selected folder are protected. Changing the save folder does not delete anything. The list and totals refresh after Trash or restoration.

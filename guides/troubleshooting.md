@@ -67,3 +67,7 @@ If macOS displays a security warning, verify the download source and contact sup
 ## Does the app record when the laptop lid is closed?
 
 Do not rely on that. The idle-sleep preference does not prevent lid-close sleep, forced sleep, or shutdown. Keep the Mac awake and the source available throughout a recording.
+
+## Undo could not restore a video
+
+If the original filename is now in use, Undo leaves the trashed video intact and reports the conflict. Rename or move the newer file with Finder, then retry Undo. Reconnect a disconnected destination drive first. After quitting Screen Recorder, recover videos from Trash in Finder; session Undo history is not kept across launches. Do not empty Trash until you have checked the recordings you want to keep.

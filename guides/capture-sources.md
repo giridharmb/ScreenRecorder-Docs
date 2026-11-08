@@ -14,8 +14,10 @@
 1. Click **Window**, or open the **Choose Window** tab.
 2. Use the **Application** filter or search by window title, app name, or window number. Enable **Include off-screen / minimized windows** if you need a window that is not currently on screen.
 3. Select the preview of the exact window you want. Check its title, window number, and selection marker.
-4. Click **Use selected window** to return to recording settings.
+4. Click **Use selected window** or press **Return** to return to recording settings.
 5. Confirm the source and start recording.
+
+Cmd-F focuses the window search. Use its clear button or Escape to clear the query. In smaller windows, **About windows and browser tabs** expands the guidance; leave it collapsed to give previews more room.
 
 The gallery groups windows by their application. Each window has a separate card, including windows with the same title. Separate running instances with the same app name have different instance labels and groups. The instance number is just an identifier to help tell them apart.
 
@@ -45,7 +47,9 @@ Application capture is tied to the chosen display. Other apps are excluded, and 
 
 ## Record an area
 
-Choose **Area**, select a display, and click **Drag to select an area…**. Drag the rectangle you want; press Escape to cancel. You can choose a different area before starting.
+Choose **Area** and select a display. **Enter area size & position…** lets you type Left, Top, Width, and Height in points, measured from the display’s top-left corner. The area must be at least 16 × 16 points and entirely inside that display. Retina recordings can contain more pixels than the point dimensions.
+
+You can also choose **Drag to select an area…**. Drag and release, or use arrow keys to move an initial centered rectangle. **Shift-arrow** resizes; **Option** uses ten-point steps. **Return** selects the area; **Escape** cancels. The overlay exposes its current dimensions to accessibility tools. You can choose a different area before starting.
 
 The rectangle stays in a fixed location on that display. It does not follow a window that you move. If Chrome or a notification covers the rectangle, it becomes part of the recording.
 
