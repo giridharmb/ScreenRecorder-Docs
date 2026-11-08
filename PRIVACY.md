@@ -25,12 +25,16 @@ The app reads available application names and window titles to populate the choo
 
 The Recordings tab reads filenames, relative folders, sizes, and filesystem creation/modification dates in your chosen save folder and its subfolders. This information stays on your Mac. The scan skips symbolic links, hidden files, and application packages; it does not automatically open or upload the videos. Optional naming rules can include the selected application’s name in saved filenames or folders.
 
+The app uses macOS App Sandbox. Movies-folder access supports the default destination. Custom-folder access is granted through the standard macOS chooser and retained using a local security-scoped bookmark. If this permission becomes invalid, you can choose the folder again. The app does not request unrestricted filesystem or network access.
+
 Preferences such as the save folder and recording options are stored on your Mac. Recordings may use temporary sections in the destination folder while capture or joining is in progress. These are removed after a successful final save; recoverable files can remain after an error. Check the app’s message before removing them.
 
 Removing the app does not remove recordings you saved in a separate folder. Manage those files in Finder. macOS can separately create diagnostic or crash reports according to your system settings; they are not the app’s built-in analytics.
 
+The Privacy Policy, User Guide, and Support links are available in the app’s Settings and Help menu.
+
 ## Public documentation and support
 
-The screenshots in this repository are generated illustrations with fictional sample windows and content. They do not show a personal desktop or real recordings.
+The images use fictional sample content only. Current-interface screenshots show a separate demo app and demo video files; the menu-bar image is an illustration. They do not show personal desktops, private browser tabs, or personal recordings.
 
 GitHub hosts this documentation and its public support issues. Visiting GitHub or posting an issue is separate from recording in the app. Anything you post to a public issue may be visible to others. Share only the details needed to explain the problem; do not include private recordings, credentials, personal window titles, or unredacted logs. See [support](SUPPORT.md).

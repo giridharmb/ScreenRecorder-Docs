@@ -21,7 +21,7 @@ The gallery groups windows by their application. Each window has a separate card
 
 Your search, app filter, and selected window stay selected when you switch between the chooser and recording tabs. **Refresh windows & previews** updates titles and still previews. Previews are cached so scrolling away and back does not start them over; an existing image can remain visible while it updates. A **Last preview** badge means the image could not be updated yet. The list also refreshes when you return to the app or applications open or quit. If a chosen window closes, refresh and select another explicitly; the app does not silently record a different window.
 
-![Fictional window gallery with separate Chrome window cards and instance groups](../images/window-picker-mock.png)
+![Window gallery showing separate previews for two fictional Demo Studio windows](../images/03-choose-window.jpg)
 
 ## Multiple Chrome or Firefox windows and tabs
 

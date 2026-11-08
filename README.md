@@ -14,21 +14,24 @@ Designed for **macOS 15 or later**, on Apple silicon and Intel Macs. Final compa
 - Add a microphone, record without sound, or combine application audio and microphone input.
 - Set a countdown, video resolution, frame rate, cursor options, and an automatic stop time.
 - Pause, continue, and stop from the menu bar.
+- Choose system, light, or dark appearance and use a layout that adapts to smaller windows.
 - Keep the default filename and folder, or add prefixes, suffixes, app names, and date-based subfolders.
 - Save as MP4 (default) or MOV using built-in macOS recording, with no extra software.
 - Browse recordings in a separate tab with size totals, creation/modification times, search, and sorting.
 
 ## Take a look
 
-These are **mock screenshots with fictional sample content**. No personal desktop, private browser tabs, or real recordings are shown. Appearance can vary with macOS and the released version.
+These examples use **fictional sample content only**. The recording, window chooser, naming settings, and library images show the current preview interface with a demo app and demo files. The menu-bar image is an illustration. No personal desktop, private browser tabs, or personal recordings are shown. Appearance can vary with macOS and the released version.
 
 **Recording setup**
 
-![Mock recording setup with a fictional browser window and audio and video options](images/recording-mock.png)
+![Recording setup in light appearance with a fictional Demo Studio window](images/01-recording-light.jpg)
+
+[View dark appearance](images/02-recording-dark.jpg)
 
 **Pick the exact window**
 
-![Mock window chooser showing large previews and multiple Chrome windows and app instances](images/window-picker-mock.png)
+![Window chooser with separate previews for two fictional Demo Studio windows](images/03-choose-window.jpg)
 
 **Menu bar controls**
 
@@ -36,11 +39,11 @@ These are **mock screenshots with fictional sample content**. No personal deskto
 
 **Naming and folder rules**
 
-![Mock optional naming settings with app names and date-based folders](images/naming-mock.png)
+![Friendly naming settings with a fictional app and month folder example](images/naming-settings.jpg)
 
 **Your recordings and storage**
 
-![Mock recordings tab with fictional file details and sorting controls](images/recordings-mock.png)
+![Recordings tab with demo file sizes, dates, sorting, and file actions](images/04-recordings.jpg)
 
 ## User guide
 
@@ -56,4 +59,4 @@ These are **mock screenshots with fictional sample content**. No personal deskto
 | [Release status](RELEASES.md) | Public availability and what to check before downloading |
 | [Get help](SUPPORT.md) | Ask a question, report a problem, or request a feature |
 
-The guides describe the current preview. Features and system requirements may change before publication. This repository contains end-user documentation and mock images; app downloads will be announced separately.
+The guides describe the current preview. Features and system requirements may change before publication. This repository contains end-user documentation and fictional demo images; app downloads will be announced separately.

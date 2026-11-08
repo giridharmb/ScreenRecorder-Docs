@@ -17,6 +17,10 @@ Resolution choices also include 4K. The source’s aspect ratio is preserved, an
 
 **H.264** is the compatibility choice. **HEVC** can produce smaller files but needs a compatible player. Capture is limited to a 4K envelope for H.264 or an 8K envelope for HEVC, depending on the source and Mac. Recording is SDR. There is no manual bitrate control in the current preview.
 
+## Appearance and smaller windows
+
+Choose **Settings → General → Appearance → System, Light, or Dark**. System follows your Mac’s appearance. The app uses larger text and adapts to smaller windows: capture choices move above the preview and **Video, audio & timer options** expands below the save settings. Record, pause, and stop controls stay at the bottom while setup options scroll.
+
 ## Before and during recording
 
 - **Countdown:** 0–30 seconds. Use zero to start without a countdown. The countdown can be cancelled.
@@ -57,7 +61,7 @@ If joining or saving fails, recoverable recorded files are kept and the app disp
 
 ## Folders, filenames, and free space
 
-Choose a destination and filename before starting. The default is **Movies → Screen Recorder** in your home folder. The extension follows the selected format; you do not need to type it. If a filename already exists, the app uses a numbered name instead of replacing it.
+Choose a destination and filename before starting. Access to a custom folder selected in the macOS folder chooser is remembered securely across launches. If permission expires or a drive moves, choose the folder again; recordings are not silently redirected. The default is **Movies → Screen Recorder** in your home folder. The extension follows the selected format; you do not need to type it. If a filename already exists, the app uses a numbered name instead of replacing it.
 
 Keep enough free space for the whole session, including extra space for joining paused sections. A successful free-space check at the start cannot guarantee room for an unlimited recording. Keep external drives connected and avoid moving the destination folder while recording.
 
@@ -67,11 +71,15 @@ The existing filename and destination defaults stay the same. For optional prefi
 
 - During recording, see the destination filename, elapsed active time, and encoded size. Open the actual recording folder or copy the intended final path. The final file becomes available after saving finishes.
 - Use **Recordings & Storage** to open the separate recordings tab, including while a session is running.
-- After saving in the current app session, **Open Last Recording**, **Reveal Last Recording**, **Copy Last Recording**, or **Copy Last Recording Path** are available. Copy File puts the video on the clipboard for pasting into Finder or another compatible app; it does not upload it.
+- After saving in the current app session, the **Last Recording** submenu offers **Open Video**, **Reveal in Finder**, **Copy File**, and **Copy Path**. The main window also shows a save summary with filename, duration, file size, destination, Open Video, and Reveal in Finder. Copy File puts the video on the clipboard for pasting into Finder or another compatible app; it does not upload it.
 - While idle, **Next Recording** lets you change the preferred format, system/app audio, microphone, and countdown. Microphone permission is still requested only if needed when recording starts.
 - **Open Save Folder** opens your base destination; **Open Recording Folder** opens the current nested destination during a session.
 
 Completed files can also be opened, revealed, or copied from the [Recordings tab](organizing-recordings.md#recordings-tab-and-storage-statistics). Move or delete completed recordings with Finder after saving finishes.
+
+## Help and recovery
+
+**User Guide**, **Privacy Policy**, and **Support** are available in the Help menu and Settings. General settings show screen/audio and microphone permission states. Recording errors provide recovery actions such as **Choose Save Folder…**, **Refresh Sources**, and **Open Recovery Folder** when recoverable sections exist. Correct invalid names in the filename field or Naming & Folders settings before trying Record again.
 
 ## Updates and removal
 

@@ -54,6 +54,10 @@ Wait for joining and saving to finish, especially after a long recording with pa
 
 If the app reports a save failure, keep the recoverable files it lists. Confirm the destination drive is connected, writable, and has enough space. Avoid renaming or deleting in-progress recordings. Use [support](../SUPPORT.md) if you cannot recover the result.
 
+## My chosen save folder needs access again
+
+Use **Choose Save Folder…** in the error panel or **Settings → Storage & Formats → Choose Folder…**, then select the same folder in the macOS chooser. The app remembers this grant securely. Reconnect external drives first. An unavailable destination does not cause recordings to be silently saved elsewhere.
+
 ## The app crashes or macOS reports an installation problem
 
 Check the supported macOS version and the build’s release notes. Reopen after a crash and look in your chosen recording folder for files that may have been kept. A forced termination can leave an incomplete file; recovery is not guaranteed.
