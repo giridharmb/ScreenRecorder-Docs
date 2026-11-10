@@ -55,10 +55,10 @@ The rectangle stays in a fixed location on that display. It does not follow a wi
 
 ## Displays, hidden windows, and previews
 
-Display mode records one selected display. Window mode can keep the same selected window when you move it between displays. Application and Area modes remain tied to their chosen display.
+Display mode records the primary selected display. Recording Tools can add other displays as separate session files. Window mode can keep the same selected window when you move it between displays. Application and Area modes remain tied to their chosen display.
 
 The default gallery shows on-screen windows, including covered ones. Enable **Include off-screen / minimized windows** to include the others. An off-screen window may show **Restore window for preview**, or its last cached image with a **Last preview** badge. Restore it and click **Refresh windows & previews** to update it.
 
 If a window returns no picture or an all-black image, the gallery retries once, then shows **No preview image** or keeps a labeled last good preview. That message can mean the window is hidden, not providing frames, or showing protected content. The app does not switch to capturing your desktop as a fallback. A missing preview is not a guarantee that recording will work; make a short test. DRM or other protected content may remain unavailable.
 
-Source selection is locked during recording, pause, and saving. Finish the recording before choosing another source.
+The custom source gallery is locked during recording, pause, and saving. For a single-source session, use **Switch Recording Source…** in the menu bar or Floating Controls and explicitly confirm the new macOS picker selection. See [multiple displays and source switching](recording-tools.md#several-displays-and-switching-sources).

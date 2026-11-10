@@ -13,7 +13,7 @@ Choose a preset, then adjust resolution and frame rate if needed:
 | High | 1440p | 60 fps |
 | Original | Native / Retina, subject to codec limits | 60 fps |
 
-Resolution choices also include 4K. The source’s aspect ratio is preserved, and a small window is not enlarged just to reach the selected resolution. A portrait window stays portrait. A selected frame rate is a maximum; a static screen may produce fewer frames.
+Resolution choices also include 4K. The source’s aspect ratio is preserved, and a small window is not enlarged just to reach the selected resolution. A portrait window stays portrait. The recorder repeats the last screen image when necessary to maintain the video timeline, including for a static screen.
 
 **H.264** is the compatibility choice. **HEVC** can produce smaller files but needs a compatible player. Capture is limited to a 4K envelope for H.264 or an 8K envelope for HEVC, depending on the source and Mac. Recording is SDR. There is no manual bitrate control in the current preview.
 
@@ -31,7 +31,7 @@ Choose **Settings → General → Appearance → System, Light, or Dark**. Syste
 
 Settings also let you hide the main window when recording starts, exclude Screen Recorder from Display or Area capture, prevent idle system sleep, play a countdown sound, and reveal the saved recording in Finder. Sleep prevention does not override closing the laptop lid, forced sleep, or shutdown.
 
-Options are locked while recording or saving. Finish the current session before changing them.
+Setup options are locked while recording or saving. Live mute/levels and source switching are available through [Recording Tools](recording-tools.md).
 
 ## Pause, continue, and stop
 
@@ -41,11 +41,11 @@ Closing the main window leaves the app in the menu bar. Choose **Show Screen Rec
 
 | Shortcut | Action | Where it works |
 | --- | --- | --- |
-| ⇧⌘R | Start recording | While Screen Recorder is active |
-| ⇧⌘P | Pause or continue | While Screen Recorder is active |
+| ⇧⌘R | Start recording | Across apps, if the shortcut is available |
+| ⇧⌘P | Pause or continue | Across apps, if the shortcut is available |
 | ⇧⌘2 | Stop and save, or cancel countdown | Across apps, if the shortcut is available |
 
-If another app owns the global shortcut, Screen Recorder reports it as unavailable. Use the menu bar controls instead.
+All three global shortcuts can be reassigned in Recording Tools. Conflicts are reported beside the shortcut; use another combination or menu controls.
 
 ## File formats
 
@@ -53,17 +53,18 @@ If another app owns the global shortcut, Screen Recorder reports it as unavailab
 | --- | --- | --- |
 | MP4 (default) | General playback and sharing; H.264 is a useful starting point | None |
 | MOV | A QuickTime movie or a workflow that expects MOV | None |
+| M4A | Optional audio-only recording | None |
 MP4 and MOV are recorded using built-in macOS features. No FFmpeg installation or extra conversion software is required. WebM and MKV export are disabled. An older saved WebM/MKV preference automatically switches to MP4, keeping your other preferences.
 
 Choose your preferred format in the recording options or **Settings → Storage & Formats**. The app remembers it for future recordings. Changing the filename extension does not choose a different format.
 
-If joining or saving fails, recoverable recorded files are kept and the app displays their locations. Do not delete those files until you have checked and recovered the recording.
+If joining or saving fails, recoverable recorded files are kept and the app displays their locations. After reopening, use **Recover interrupted recordings…** to inspect playable sections and save a new copy. Do not delete those files until you have checked and recovered the recording.
 
 ## Folders, filenames, and free space
 
 Choose a destination and filename before starting. Access to a custom folder selected in the macOS folder chooser is remembered securely across launches. If permission expires or a drive moves, choose the folder again; recordings are not silently redirected. The default is **Movies → Screen Recorder** in your home folder. The extension follows the selected format; you do not need to type it. If a filename already exists, the app uses a numbered name instead of replacing it.
 
-Keep enough free space for the whole session, including extra space for joining paused sections. A successful free-space check at the start cannot guarantee room for an unlimited recording. Keep external drives connected and avoid moving the destination folder while recording.
+The app requires 750 MB initially, monitors available space, and reserves room for saving. Keep enough free space for the whole session, including temporary video/audio sections and extra space for joining. A capacity check cannot guarantee room for an unlimited recording. Keep external drives connected and avoid moving the destination folder while recording.
 
 The existing filename and destination defaults stay the same. For optional prefixes, suffixes, naming templates, date subfolders, or app-based grouping, see [Naming, folders, and your recordings](organizing-recordings.md). Existing recordings are not renamed or moved by these rules.
 

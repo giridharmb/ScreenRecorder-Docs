@@ -20,10 +20,14 @@ Designed for **macOS 15 or later**, on Apple silicon and Intel Macs. Final compa
 - Browse recordings with size totals, dates, search, and sortable columns.
 - Select multiple videos, preview with Quick Look, and move completed videos to Trash with confirmation and Undo.
 - Set a recording area by dragging, typing its position/size, or using the keyboard.
+- Check audio with meters and a five-second sample; use live mute/levels, M4A audio-only output, and optional separate audio files.
+- Save profiles, schedule a session, use global shortcuts, and add webcam/spotlight/shortcut/annotation presentation tools.
+- Recover interrupted sessions, trim copies, rename/share recordings, and filter by application/date.
+- Record multiple displays as separate files or explicitly switch sources within a single-source session.
 
 ## Take a look
 
-These examples use **fictional sample content only**. The recording, window chooser, naming settings, and library images show the current preview interface with a demo app and demo files. The menu-bar image is an illustration. No personal desktop, private browser tabs, or personal recordings are shown. Appearance can vary with macOS and the released version.
+These examples use **fictional sample content only**. The images show the earlier 1.6 preview interface with a demo app and demo files; the 2.0 tools described in the guides extend that interface. The menu-bar image is an illustration. No personal desktop, private browser tabs, or personal recordings are shown. Appearance can vary with macOS and the released version.
 
 **Recording setup**
 
@@ -53,6 +57,7 @@ These examples use **fictional sample content only**. The recording, window choo
 | --- | --- |
 | [Get started](guides/getting-started.md) | Availability, installation, permissions, and your first recording |
 | [Choose what to record](guides/capture-sources.md) | Displays, windows, apps, areas, browser tabs, and multiple windows |
+| [Recording tools](guides/recording-tools.md) | Recovery, sound checks, profiles, scheduling, overlays, separate audio, source switching, and editing |
 | [Set up audio](guides/audio.md) | Application sound, microphones, quiet listening, and silent recording |
 | [Recording options and files](guides/settings-and-files.md) | Quality, countdown, pause, shortcuts, formats, and saving |
 | [Naming, folders, and recordings](guides/organizing-recordings.md) | Optional naming rules, app/date folders, file details, sorting, and storage totals |

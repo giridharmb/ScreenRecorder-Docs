@@ -40,3 +40,7 @@ For Display and Area recordings, check other apps too, because their playback ca
 Use headphones when capturing both a microphone and application sound so the microphone does not also pick up the speakers. Choose the intended input and speak at a normal distance. Turn the microphone off if you only need clean application playback.
 
 Make a short test, stop and save, then play the file with your Mac’s playback volume restored to a comfortable level. If sound is missing or doubled, see [troubleshooting](troubleshooting.md#audio-is-missing-quiet-or-doubled).
+
+## Meters, mute, levels, and separate audio
+
+See [Recording Tools](recording-tools.md#check-your-sound) for the five-second playback check, live meters and gain/mute controls, M4A audio-only capture, and optional separate application/microphone files. Original-level capture remains the 100% default.

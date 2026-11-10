@@ -84,3 +84,7 @@ With the table focused, press **Delete** or **Cmd-Delete**, choose **Move to Tra
 Use **Edit → Undo**, **Cmd-Z**, or **Undo Move to Trash** to restore the batch during this app session. After quitting, use Trash in Finder to recover files. Undo restores the original destination, even if you have since chosen another save folder. It never replaces a file that now uses the original name. If restoring fails, the video stays in Trash; resolve the conflict or reconnect the drive, then retry Undo or recover it with Finder.
 
 Trash actions are disabled during recording or saving. Active files, temporary/recovery sections, symbolic links, and files outside the selected folder are protected. Changing the save folder does not delete anything. The list and totals refresh after Trash or restoration.
+
+## More media tools
+
+The library also supports thumbnails, duration/resolution/codec details, date/application filters, Rename, Share, and **Trim & Save a Copy…**. See [editing and filtering](recording-tools.md#trim-rename-share-and-filter). M4A audio-only recordings and companion audio files are listed alongside video files.

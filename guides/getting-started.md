@@ -43,3 +43,7 @@ The default destination is **Movies → Screen Recorder** in your home folder. E
 Make a short test with the same window, audio sources, and output settings. Keep the source window open and its video playing, connect your Mac to power, and make sure the destination drive stays connected. For Display or Area capture, consider using Focus to keep notifications out of the recording. Closing the laptop lid can interrupt capture.
 
 Next: [Choose what to record](capture-sources.md) · [Audio setup](audio.md) · [Recording options](settings-and-files.md)
+
+## Optional recording tools
+
+The first-run check offers a destination/permission checklist and a five-second playback check. [Recording Tools](recording-tools.md) covers audio meters and levels, recovery, profiles, scheduling, presentation overlays, native source selection, audio-only output, separate audio files, and library editing. Camera and Input Monitoring are optional and are not required for ordinary screen recording.
