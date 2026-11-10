@@ -4,7 +4,7 @@ Record a display, one window, an application, or just the area you choose — wi
 
 **Coming soon.** This is the public documentation preview. A public app download is not available yet. Download instructions, release notes, and pricing or purchase information will be announced here when the app is published. See [release status](RELEASES.md).
 
-Designed for **macOS 15 or later**, on Apple silicon and Intel Macs. Final compatibility details will accompany the first public release.
+Designed for **macOS 15 or later**, on Apple silicon and Intel Macs. On-device transcription additionally requires macOS 26 or later, a compatible Mac, and a supported language model. Final compatibility details will accompany the first public release.
 
 ## Explore the app
 
@@ -25,9 +25,14 @@ Designed for **macOS 15 or later**, on Apple silicon and Intel Macs. Final compa
 - Recover interrupted sessions, trim copies, rename/share recordings, and filter by application/date.
 - Record multiple displays as separate files or explicitly switch sources within a single-source session.
 
+- Cover private areas with solid masks and exclude applications from display/area capture.
+- Mark moments, organize with favorites/tags/collections, and make sharing copies through a cancellable queue.
+- Create searchable on-device transcripts and export SRT/VTT subtitles on supported Macs.
+- Restart a take after saving it, and inspect shared timing for multiple display files.
+
 ## Take a look
 
-These examples use **fictional sample content only**. The images show the earlier 1.6 preview interface with a demo app and demo files; the 2.0 tools described in the guides extend that interface. The menu-bar image is an illustration. No personal desktop, private browser tabs, or personal recordings are shown. Appearance can vary with macOS and the released version.
+These examples use **fictional sample content only**. The images show the earlier 1.6 preview interface with a demo app and demo files; the 2.1 tools described in the guides extend that interface. The menu-bar image is an illustration. No personal desktop, private browser tabs, or personal recordings are shown. Appearance can vary with macOS and the released version.
 
 **Recording setup**
 
@@ -57,6 +62,7 @@ These examples use **fictional sample content only**. The images show the earlie
 | --- | --- |
 | [Get started](guides/getting-started.md) | Availability, installation, permissions, and your first recording |
 | [Choose what to record](guides/capture-sources.md) | Displays, windows, apps, areas, browser tabs, and multiple windows |
+| [Privacy, markers, and exports](guides/privacy-markers-and-exports.md) | Masks, exclusions, audio protection, markers, transcripts, export queue, organization, restarting, and display timing |
 | [Recording tools](guides/recording-tools.md) | Recovery, sound checks, profiles, scheduling, overlays, separate audio, source switching, and editing |
 | [Set up audio](guides/audio.md) | Application sound, microphones, quiet listening, and silent recording |
 | [Recording options and files](guides/settings-and-files.md) | Quality, countdown, pause, shortcuts, formats, and saving |

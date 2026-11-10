@@ -88,3 +88,5 @@ Trash actions are disabled during recording or saving. Active files, temporary/r
 ## More media tools
 
 The library also supports thumbnails, duration/resolution/codec details, date/application filters, Rename, Share, and **Trim & Save a Copy…**. See [editing and filtering](recording-tools.md#trim-rename-share-and-filter). M4A audio-only recordings and companion audio files are listed alongside video files.
+
+For favorites, tags, collections, searchable transcripts, markers, sharing copies, and queue cleanup, see [Privacy, markers, and exports](privacy-markers-and-exports.md). These library labels do not change the default filename or folder rules.

@@ -44,3 +44,5 @@ Make a short test, stop and save, then play the file with your Mac’s playback 
 ## Meters, mute, levels, and separate audio
 
 See [Recording Tools](recording-tools.md#check-your-sound) for the five-second playback check, live meters and gain/mute controls, M4A audio-only capture, and optional separate application/microphone files. Original-level capture remains the 100% default.
+
+For optional limiting, quiet microphone noise reduction, and automatic app-sound ducking, see [audio protection](privacy-markers-and-exports.md#optional-audio-protection). All are off by default and change the saved sound.

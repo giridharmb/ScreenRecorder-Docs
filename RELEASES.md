@@ -17,6 +17,10 @@ When the first public version is ready, this page will be updated with:
 
 There is no announced App Store listing, price, or release date. Documentation availability does not mean the app has been published or that a preview installer is ready for general distribution.
 
+## Current development preview
+
+The 2.1 preview adds solid privacy masks and app exclusions, optional audio protection, timestamped markers, sharing-copy and transcription queues, local transcripts and SRT/VTT export on supported Macs, favorites/tags/collections, save-before-restart takes, and shared timing information for additional displays. See [the workflow guide](guides/privacy-markers-and-exports.md) for limits and compatibility. This is a development update, not a public release or download announcement.
+
 ## Keep informed
 
 Check this page for updates. You can also watch this documentation repository on GitHub using your preferred notification settings. If public releases are hosted here later, they will appear on the [Releases page](https://github.com/giridharmb/ScreenRecorder-Docs/releases).
